@@ -31,8 +31,8 @@ quiet = False
 maxTables = None or 0 # testing: max # of output tables
 
 patternLine1 = "--\n"
-patternLine2 = r"^-- Table structure for table `(.+?)`$\n"
 patternLine2 = r"^-- .*?`(.+?)`$\n"
+patternLine2 = r"^-- Table structure for table `(.+?)`$\n"
 patternLine3 = "--\n"
 
 # these values are used to create a batch file
